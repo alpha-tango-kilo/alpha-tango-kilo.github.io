@@ -74,21 +74,38 @@ The best place to see more of my Linux lifestyle is over in my [dotfiles reposit
 In short, I currently use the `i3-gaps` window manager with `st` as my terminal of choice.
 I'm working on my own build of `dwm` and further patching `st`, so keep an eye on my Github repositories for those.
 
+## Android
+
+My current phone is the [OnePlus 5T](https://www.gsmarena.com/oneplus_5t-8912.php).
+I have no reason or spare money to upgrade.
+
+App recommendations:
+
+<!-- TODO -->
+
 # Programming languages and experience
 
-I am currently learning [Rust](https://www.rust-lang.org/) because it seems hip and cool.
-Given it's good multi-threading ability, performance on par with C while being more high level, and seems capable of being used for literally anything, it caught my eye.
-The book I'm learning from can be found [here](https://doc.rust-lang.org/stable/book/title-page.html).
-
-I'm not a fan of GUI or web development, and have little experience with either.
+I largely speaking prefer backend development - I'm not a fan of GUI or web development, and have little experience with either of these.
 I cheated with this website by using [Rmarkdown](rmarkdown.rstudio.com/), which is an awesome tool.
 
 ## Java
 
+<!-- TODO -->
+
 ## Haskell
+
+<!-- TODO -->
 
 ## Shell scripting
 
+<!-- TODO -->
+
 ## Python
 
+<!-- TODO -->
+
 ## Rust
+
+I am currently learning [Rust](https://www.rust-lang.org/) because it seems hip and cool.
+Given it's good multi-threading ability, performance on par with C while being more high level, and seems capable of being used for literally anything, it caught my eye.
+The book I'm learning from can be found [here](https://doc.rust-lang.org/stable/book/title-page.html).

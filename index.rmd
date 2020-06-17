@@ -1,0 +1,94 @@
+---
+title: The Website of Atk
+output: html_document
+---
+
+> The handle I go by online is **Atk**, I don't publish my full name unless I have to
+
+Because some annoying sod has usually already taken it I can also be seen using `alpha-tango-kilo`, `Ahtekuh`, or `atkkta`
+
+# About me
+
+I'm a computer science student at university currently.
+I enjoy any and all things computery - building computers, writing code, playing PC games, the whole shebang.
+I am male and in my 20s.
+
+My most recent interest in the computing world has been Linux.
+I moved my personal laptop over to Arch Linux in late 2019 and have thoroughly enjoying working out everything as I go, building myself a competent customised workflow from the ground up.
+The FOSS community is awesome and I'm trying to find the time to give back to the community amoungst studying.
+
+Privacy is also a huge part about the way I conduct myself online.
+Facebook, Google, Amazon, and the like possess a very real threat to everyone's privacy, seemingly without anyone caring.
+As such, I have been trying to migrate away from these data giants, ditching Gmail, Facebook, Twitch, and so on as I go, while also bolstering my personal security with a password manager and two factor authentication.
+
+## Where to find me
+
+My Github is here, with all my non-university projects: https://github.com/alpha-tango-kilo
+
+Physically, I'm based in the south east of the UK.
+
+You can contact me by email if you have good reason to (please offer me a job): `atk [at] aaathats3as [dot] com`
+
+I don't have any packages yet, but I'm on the AUR under [atk](https://aur.archlinux.org/account/atk/).
+
+For any other details, please contact me via the means provided above, I don't like to leave too much of my info lying around publicly.
+
+<!-- TODO: add GPG public key(s) -->
+
+# Programs I use
+
+## Web browsing
+
+I browse on [Firefox](https://www.mozilla.org/en-GB/firefox/new/). If you don't, you're not doing it right.
+For the love of god people, get off of Google Chrome now *please*
+
+Great addons I use:
+
+* [Bitwarden](https://bitwarden.com/) - password manager
+
+* [AdNauseam](https://github.com/dhowe/AdNauseam) - a uBlock Origin fork that gives the finger to advertisers
+
+* [Privacy Badger](https://privacybadger.org/) - tracking control (used to complement Firefox's built-in)
+
+* [Decentraleyes](https://decentraleyes.org/) - emulates CDNs locally for privacy benefits
+
+* [Multi-Account Containers](https://addons.mozilla.org/en-GB/firefox/addon/multi-account-containers/) - keep cookies for websites separate so you can't be tracked outside of a given group of sites (like Google ones for instance)
+
+* [User-Agent Switcher](https://addons.mozilla.org/en-GB/firefox/addon/uaswitcher) - to spoof the device you're browsing from
+
+* [Tabliss](https://tabliss.io/) - sexy looking new tab page
+
+* [Wikiwand](https://www.wikiwand.com/) - Wikipedia finally looks good
+
+## Programming
+
+For serious coding, any of the glorious [Jetbrains IDEs](https://www.jetbrains.com/).
+I've mostly used IntelliJ and PyCharm, but I'd recommend the suite to anyone.
+
+For casual stuff, [Visual Studio Code](https://github.com/microsoft/vscode) is my go to.
+If I'm feeling hardcore or just making quick changes, [Neovim](https://neovim.io/) does the trick nicely.
+
+## Arch Linux
+
+The best place to see more of my Linux lifestyle is over in my [dotfiles repository](https://github.com/alpha-tango-kilo/dots).
+In short, I currently use the `i3-gaps` window manager with `st` as my terminal of choice.
+I'm working on my own build of `dwm` and further patching `st`, so keep an eye on my Github repositories for those.
+
+# Programming languages and experience
+
+I am currently learning [Rust](https://www.rust-lang.org/) because it seems hip and cool.
+Given it's good multi-threading ability, performance on par with C while being more high level, and seems capable of being used for literally anything, it caught my eye.
+The book I'm learning from can be found [here](https://doc.rust-lang.org/stable/book/title-page.html).
+
+I'm not a fan of GUI or web development, and have little experience with either.
+I cheated with this website by using [Rmarkdown](rmarkdown.rstudio.com/), which is an awesome tool.
+
+## Java
+
+## Haskell
+
+## Shell scripting
+
+## Python
+
+## Rust

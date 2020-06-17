@@ -1,0 +1,9 @@
+html_document:
+  keep_md: no
+  toc: true
+  toc_depth: 3
+  toc_float:
+      collapsed: false
+      smooth_scroll: false
+  theme: yeti
+  css: style.css

@@ -1,8 +1,240 @@
-blockquote {
-    font-size: 16px;
-    border-left-width: 3px;
+:root {
+    --color0: #212121;      /*leave*/
+    --color1: #9cde79;      /*headings*/
+    --color2: #eee9d0;      /*mono*/
+    --color3: #ffcb62;      /*programsiuse*/
+    --color4: #a785e3;      /*toptitle #458588*/ 
+    --color5: #b16286;      /*leave*/
+    --color6: #f66f40;      /*links*/
+    --color7: #111111;      /*codeblock*/
+    --color8: #6b9cff;      /*heading4*/
+    --color9: #fb4934;      /*unused*/
+    --color10: #b8bb26;     /*unused*/
+    --color11: #fabd2f;     /*leave*/
+    --color12: #ffa07f;     /*hyperlinkhover*/
+    --color13: #d3869b;     /*leave*/
+    --color14: #8ec07c;     /*leave*/
+    --color15: #eee9d0;     /*main text #ebdbb2*/
+    --color256: #1d2021;    /*background*/
+    --color257: #ebdbb2;    /*leave*/
 }
 
-p.caption {
-    font-style: italic;
+body {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--color256);
+    color: var(--color15);
+    padding: 1em;
+    font-family: "Product Sans", "Google Sans", "Open Sans", sans-serif;
+}
+
+li img {
+    height: 1.25em;
+}
+
+h1 {
+    color: var(--color4);
+    font-weight: bold;
+    text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
+    text-align: center;
+    font-size: 44px;
+}
+
+h1 img {
+    height: 1em;
+}
+
+h2 {
+    color: var(--color3);
+    font-weight: bold;
+}
+
+h2 img {
+    height: 1em;
+    padding-top: 1em;
+}
+
+h3 {
+    color: var(--color1);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h3 img {
+    height: 1em;
+}
+
+h4 {
+	color: var(--color8);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a {
+    color: var(--color6);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--color12);
+}
+
+a img:hover {
+    background: rgba(0, 0, 0, 0);
+    transition: .5s;
+    transform: scale(2, 2);
+}
+
+.hiddiv {
+    display: none;
+}
+.qr:hover {
+    color: goldenrod;
+}
+.qr:hover .hiddiv {
+    display: block;
+    float: right;
+}
+.hiddiv img {
+    height: 200px;
+}
+
+#cat {
+    /*'float: center' does nothing btw. and cat should be an class, as its used so many times in the html*/
+    display: inline;
+}
+
+#links {
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+    background-color: var(--color256);
+    padding: 5px;
+    border-radius: 10px;
+    /* margin-bottom: 6em */
+}
+
+#links img {
+    height: 1.25em;
+}
+
+footer strong {
+    font-weight: bold;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding-top: 2em;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 2em;
+}
+dt img {
+    height: 1em;
+}
+
+img.centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+figcaption {
+    padding: 0px;
+    max-width: 175px;
+}
+code {
+    color: var(--color2);
+    overflow-x: auto;
+    white-space: nowrap;
+    font-family: "Jetbrains Mono", Hack, Inconsolata, FiraCode, monospace;
+    background-color: var(--color7);
+    border-radius: 4px;
+    display: inline;
+    padding-inline: 5px;
+}
+
+/* align is not always supported anymore so I tend to just use 'auto' on left and right margin if you arent using flexbox or grid */
+pre {
+    margin: auto;
+    margin-top: 3em;
+    background: var(--color256);
+    border: 1px solid var(--color8);
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    max-width: 900px;
+}
+
+.indexcolname {
+    max-width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.indexcoldesc {
+    font-weight: bold;
+    padding: 10px;
+    font-size: large;
+}
+.indexcollastmod, .indexcolsize {
+    font-size: small;
+}
+
+#indexlist {
+    margin: 0px auto;
+}
+.centerpiece {
+    margin: auto;
+    margin: 0px auto;
+}
+
+.A, span.i, pre a.i {
+    color: var(--color10);
+}
+
+.D, span.d, pre a.d {
+    color: var(--color9);
+}
+
+.right, .left {
+	min-height: 250px;
+	text-align: left;
+}
+
+.right img {
+    padding-top: 1em;
+    float: right;
+    max-width: 300px;
+    max-height: 225px;
+    padding: 20px;
+}
+
+.left img {
+    padding-top: 1em;
+    float: left;
+    max-width: 300px;
+    max-height: 225px;
+    padding: 20px;
+}
+
+#content td {
+	max-width: 400px;
+}
+
+#content {
+	max-width: inherit;
+}
+
+#blob {
+	white-space: pre-wrap;
+}
+
+#index {
+    margin-left: auto;
+    margin-right: auto;
 }

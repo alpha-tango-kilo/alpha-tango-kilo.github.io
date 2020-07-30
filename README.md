@@ -1,1 +1,1 @@
-# The place you want to be is [here](http://www.alpha-tanga-kilo.uk)
+# The place you want to be is [here](https://alpha-tango-kilo.xyz/)

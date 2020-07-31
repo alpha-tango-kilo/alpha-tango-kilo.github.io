@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>💻 Atk.println("Hello world!");</title>
+    <title>💻 println!("Hello {}!", atk);</title>
     <link rel='stylesheet' type='text/css' href='style.css'>
     <meta charset="utf-8">
     <base target="_blank" rel="noopener noreferrer"> <!-- Open links in new tabs by default -->
@@ -19,13 +19,11 @@
             Programming Experience
         </h2>
         <p>
-            I largely speaking prefer backend development - I'm not a fan of GUI or web development, and have little
-            experience with either of these.
+            I largely speaking prefer backend development - I'm not a fan of GUI or web development, and have little experience with either of these.
             I wrote this HTML by hand and based the CSS off of <a href="https://lukesmith.xyz">Luke Smith's</a>, sue me
         </p>
         <p>
-            <em>All projects below that are marked with an asterisk (*) were related to my university course and as such I
-                can't publically share the source</em>
+            <em>All projects below that are marked with an asterisk (*) were related to my university course and as such I can't publically share the source</em>
         </p>
     </div>
     
@@ -35,17 +33,13 @@
             Java
         </h3>
         <p>
-            I respect Java for it's dedication to the object oriented paradigm and really like how classes are split across
-            files.
-            I think it's a great programming language to learn as it's strict enough in its syntax (looking at you Python)
-            to teach good habits, without being too niche.
-            It's GUI tools are lacklustre at best and multithreading is tedious, but it's nice for being cross platform and
-            very general purpose
+            I respect Java for it's dedication to the object oriented paradigm and really like how classes are their own files.
+            I think it's a great programming language to learn as it's strict enough in its syntax (looking at you Python) to teach good habits, without being too niche.
+            It's GUI tools are lacklustre at best and multithreading is tedious, but it's nice for being cross platform and very general purpose
         </p>
         <p>
             Java was the primary programming language taught over my university course.
-            It was the first true object orientated programming language I picked up and is currently my most confident
-            language.
+            It was the first true object orientated programming language I picked up and is currently my most confident language.
             I privately teach Java in my spare time, using self-made materials
         </p>
         <p>
@@ -61,22 +55,17 @@
                 A <b>distributed election system</b> that is tolerant to crash failures and Byzantine failures*
             </li>
             <li>
-                Depth first, breadth first, iterative deepening, and A* <b>search methods for finding a solution to a
-                    sliding puzzle</b>*
-                (implementing the puzzle was also part of the challenge)
+                Depth first, breadth first, iterative deepening, and A* <b>search methods for finding a solution to a sliding puzzle</b>* (implementing the puzzle was also part of the assignment)
                 <br>
-                My solution also came with the built-in ability to generate puzzles and benchmark the various algorithms
-                using them
+                My solution also came with the built-in ability to generate puzzles and benchmark the various algorithms using them
             </li>
             <li>
-                A <b>multi-threaded restauarant simulation</b>, emulating meal creation using ingredients and staff members,
-                delivery drones*
+                A <b>multi-threaded restauarant simulation</b>, emulating meal creation using ingredients and staff members, delivery drones*
                 <br>
                 The GUI for the server was also part of the project
             </li>
             <li>
-                <b>TCP & UDP socket communication</b> for various purposes (logging/communication in the election system,
-                and placing orders in the restaurant simulation)
+                <b>TCP & UDP socket communication</b> for various purposes (logging/communication in the election system, and placing orders in the restaurant simulation)
             </li>
         </ul>
         </p>
@@ -89,9 +78,15 @@
         </h3>
         <p>
             I am currently learning <a href="https://www.rust-lang.org">Rust</a> because it seems hip and cool.
-            Given it's good multi-threading ability, performance on par with C while being more high level, and seems
-            capable of being used for literally anything, it caught my eye.
+            Given it's good multi-threading ability, performance on par with C while being more high level, and seems capable of being used for literally anything, it caught my eye.
             I'm learning using the <a href="https://doc.rust-lang.org/stable/book/title-page.html">official online book</a>
+        </p>
+        <p>
+            Initial impressions thus far - I like Rust. It's relatively intuitive and feels like an aggressive mix of Haskell and Java.
+            It's clear dedication to being safe is a huge pain for quickly prototyping things but really gives you confidence that your program is highly unlikely to just bomb out because of some obscure bug.
+            The <code>?</code> operator is frankly magical and this is the first programming language where I've really started to use streams/iterators properly.
+            The struct system seems a bit weird to me as I'm very used to classes being their own files, but I'm sure I'll get used to it in time.
+            The compiler is awesome, and Cargo is also really useful, though I'm not sure how well I agree with the choice of statically linking dependencies by default, or how Node.js like the packages are (loads and loads of tiny packages)
         </p>
         <p>
             Projects completed in Rust:
@@ -102,22 +97,26 @@
             <li>
                 <a href="https://github.com/alpha-tango-kilo/noughts-n-crosses-rs">Noughts & crosses</a> (2 player)
             </li>
+            <li>
+                WIP: A program to automatically generate an RSS feed of my <a target="_self" href="gaming.html">game reviews</a>
+            </li>
+            <li>
+                WIP (link to come): A <b>web scraper</b> that provides an API to <a href="https://boxrec.com">BoxRec</a>, a professional boxer stats website
+            </li>
         </ul>
         </p>
     </div>
     
     <div class="right">
-        <img src="https://evenmere.org/~bts/haskell-logo/logo-0.svg" alt="Haskell logo">
+        <img src="https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png" alt="Haskell logo">
         <h3>
             Haskell
         </h3>
         <p>
             Functional programming still has yet to properly 'click' with me.
             Me writing Haskell is like a chimp learning to use a typewriter, but that doesn't mean it's a bad language.
-            In fact, I respect it hugely for what it's designed to do, it's abundantly clear that Haskell is immensely
-            powerful in the right hands, and incredibly safe to write.
-            It also wins the prize for best looking code, because damn when you align all the parameter names for all the
-            cases and stuff whew boy...
+            In fact, I respect it hugely for what it's designed to do, it's abundantly clear that Haskell is immensely powerful in the right hands, and incredibly safe to write.
+            It also wins the prize for best looking code, because damn when you align all the parameter names for all the cases and stuff whew boy...
             Anyhow, great language, I'd maybe consider using it for processing large amounts of mathmatical data
         </p>
         <p>
@@ -127,9 +126,7 @@
                 Emulating a stack-based minimal instruction set computer*
             </li>
             <li>
-                Implementing a probably-Turing complete procedural programming language called Strisp, using <a
-                    href="https://www.haskell.org/alex/">Alex</a> and <a href="https://www.haskell.org/happy/">Happy</a>*
-                (This was a paired coursework)
+                Implementing a probably-Turing complete procedural programming language called Strisp, using <a href="https://www.haskell.org/alex/">Alex</a> and <a href="https://www.haskell.org/happy/">Happy</a>* (This was a paired coursework)
             </li>
         </ul>
         </p>
@@ -142,27 +139,20 @@
             Shell scripting
         </h3>
         <p>
-            Shell scripting is kind of a force of habit to learn alongside Linux when you're a programmer, unless you think
-            Python is the best thing since sliced bread.
-            In any case, I've picked up a fair amount of shell scripting, and I have to say I'm not a fan, regardless as to
-            whether I'm targetting sh, bash, or zsh.
-            The syntax is fiddly and too whitespace dependent (conditionals), and 'normal' programming language features
-            (like adding two numbers) feel like they were added as an after thought as opposed to from the ground up.
-            Don't get me wrong, I love the Unix philosophy of "do one thing and do it well" coupled with the idea of working
-            with data streams, but any time your script spills out over a line there's something I'll have to write that'll
-            make me grumble about poor design.
-            I use shell scripts because they're low level and the fastest interpreted language you'll get in Linux, but I'm
-            never going to make <a href="https://k1ss.org">a whole distribution</a> just using shell.
+            Shell scripting is kind of a force of habit to learn alongside Linux when you're a programmer, unless you think Python is the best thing since sliced bread.
+            In any case, I've picked up a fair amount of shell scripting, and I have to say I'm not a fan, regardless as to whether I'm targetting sh, bash, or zsh.
+            The syntax is fiddly and too whitespace dependent (conditionals), and 'normal' programming language features (like adding two numbers) feel like they were added as an after thought as opposed to from the ground up.
+            Don't get me wrong, I love the Unix philosophy of "do one thing and do it well" coupled with the idea of working with data streams, but any time a script spills out over a line there's something I'll have to write that'll make me grumble about poor design.
+            I use shell scripts because they're low level and the fastest interpreted language you'll get in Linux, but I'm never going to make <a href="https://k1ss.org">a whole distribution</a> just using shell
         </p>
         <p>
-            There isn't really such a thing as a 'project' in shell script for me, but the little helpers I write and bind
-            to keys can be found in the <a
-                href="https://github.com/alpha-tango-kilo/dots/tree/master/.local/scripts"><code>~/.local/scripts</code></a>
-            directory of my system, and they certainly are handy
+            There isn't really such a thing as a 'project' in shell script for me, but the little helpers I write and bind to keys can be found in the <a href="https://github.com/alpha-tango-kilo/dots/tree/master/.local/scripts"><code>~/.local/scripts</code></a> directory of my system, and they certainly are handy
         </p>
         <p>
-            I also wrote a fairly rudimentary test running tool in shell script to help test Strisp (the programming
-            language I wrote in Haskell)
+            I also wrote a fairly rudimentary test running tool in shell script to help test Strisp (the programming language I wrote in Haskell)
+        </p>
+        <p>
+            Oh, and I have contributed to <a href="https://github.com/mfaerevaag/wd">wd</a>, a zsh directory changer that lets you set custom nicknames for long paths
         </p>
     </div>
     
@@ -173,22 +163,15 @@
         </h3>
         <p>
             As with the rest of the world, Python was the first programming language I learnt (properly).
-            It feels like the happy-go-lucky kid in a rather more stern group of older kids compared against the other
-            languages in my list.
-            Python is a breeze: clear syntax leads to easy readability, and absolutely no cruft visible anywhere (though
-            <code>++</code> and <code>--</code> are blatantly missing, come on guys).
-            It's a scripting Swiss army knife, being so widely used there's a library for everything, and being so feature
-            rich it supports a whole host of programming language styles
+            It feels like the happy-go-lucky kid in a rather more stern group of older kids compared against the other languages in my list.
+            Python is a breeze: clear syntax leads to easy readability, and absolutely no cruft visible anywhere (though <code>++</code> and <code>--</code> are blatantly missing, come on guys).
+            It's a scripting Swiss army knife, being so widely used there's a library for everything, and being so feature rich it supports a whole host of programming language styles
         </p>
         <p>
             However, I would not recommend anyone to learn Python as their first language.
-            Just because it's the easiest doesn't mean it's teaching you good habits and safe coding style (type coersion,
-            public by
-            default class attributes).
-            To add to that, being interpreted, it's not massively fast, and heaven forbid you want to thread a program in
-            Python.
-            Seems to be popular with the machine learning crowd, probably because they know more maths than they do real
-            programming
+            Just because it's the easiest doesn't mean it's teaching you good habits and safe coding style (type coersion, public by default class attributes).
+            To add to that, being interpreted, it's not massively fast, and heaven forbid you want to thread a program in Python.
+            Seems to be popular with the machine learning crowd, probably because they know more maths than they do real programming
         </p>
         <p>
             Similarly to Java, I also tutor in Python.
@@ -205,8 +188,7 @@
                 Every basic GCSE / A level exam question/coursework ever
             </li>
             <li>
-                A duplicate imagine finder (complete with GUI made in Pygame 😅 - I really didn't want to learn Tkinter for
-                a personal project)
+                A duplicate imagine finder (complete with GUI made in Pygame 😅 - I really didn't want to learn Tkinter for a personal project)
             </li>
             <li>
                 <a href="https://github.com/alpha-tango-kilo/ATDS">A Top Down Shooter</a>, my A level project.

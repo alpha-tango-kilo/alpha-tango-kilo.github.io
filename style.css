@@ -19,6 +19,14 @@
     --color257: #ebdbb2;    /*leave*/
 }
 
+@font-face {
+    font-family: Jetbrains Mono;
+    src: url("fonts/jetbrains-mono/JetBrainsMono-Medium.ttf") format("truetype");
+    src: url("fonts/jetbrains-mono/JetBrainsMono-Medium.woff") format("woff");
+    src: url("fonts/jetbrains-mono/JetBrainsMono-Medium.woff2") format("woff2");
+    font-style: normal;
+}
+
 body {
     max-width: 1050px;
     margin-left: auto;

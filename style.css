@@ -20,6 +20,12 @@
 }
 
 @font-face {
+    font-family: Open Sans;
+    src: url("fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
     font-family: Jetbrains Mono;
     src: url("fonts/jetbrains-mono/JetBrainsMono-Medium.ttf") format("truetype");
     src: url("fonts/jetbrains-mono/JetBrainsMono-Medium.woff") format("woff");

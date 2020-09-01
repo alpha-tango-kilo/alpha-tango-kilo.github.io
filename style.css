@@ -20,8 +20,8 @@
 }
 
 @font-face {
-    font-family: Open Sans;
-    src: url("fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+    font-family: Google Sans;
+    src: url("fonts/google-sans/GoogleSans-Medium.ttf") format("truetype");
     font-style: normal;
 }
 
@@ -40,7 +40,7 @@ body {
     background: var(--color256);
     color: var(--color15);
     padding: 1em;
-    font-family: "Product Sans", "Google Sans", "Open Sans", sans-serif;
+    font-family: "Google Sans", sans-serif;
 }
 
 li img {

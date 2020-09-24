@@ -28,7 +28,7 @@
         </h2>
         <p>
             I largely speaking prefer backend development - I'm not a fan of GUI or web development, and have little experience with either of these.
-            I wrote this HTML by hand and based the CSS off of <a href="https://lukesmith.xyz">Luke Smith's</a>, sue me
+            I wrote this HTML by hand and based the CSS off of <a href="https://web.archive.org/web/20200504050115/https://lukesmith.xyz/">Luke Smith's old website</a>, sue me
         </p>
         <p>
             <em>All projects below that are marked with an asterisk (*) were related to my university course and as such I can't publically share the source</em>
@@ -87,14 +87,35 @@
         <p>
             I am currently learning <a href="https://www.rust-lang.org">Rust</a> because it seems hip and cool.
             Given it's good multi-threading ability, performance on par with C while being more high level, and seems capable of being used for literally anything, it caught my eye.
-            I'm learning using the <a href="https://doc.rust-lang.org/stable/book/title-page.html">official online book</a>
+            I've read the <a href="https://doc.rust-lang.org/stable/book/title-page.html">official online book</a> and am now just trying to get to grips with the rest of it.
+            I feel like the book is good as a semi-practical guide to Rust, but it doesn't help you understand the behind-the-scenes of how Rust works; it completely misses out a lot of standard library traits and structs which are really commonly used everywhere.
+            This means that while I may have read a full 20 chapter book and have built a multi-threaded web server or whatever, I still feel like there's a huge transition to the 'real-world', maybe akin to graduating uni and starting a job?
+            I don't know, I haven't got that far yet 😂
         </p>
         <p>
             Initial impressions thus far - I like Rust. It's relatively intuitive and feels like an aggressive mix of Haskell and Java.
             It's clear dedication to being safe is a huge pain for quickly prototyping things but really gives you confidence that your program is highly unlikely to just bomb out because of some obscure bug.
             The <code>?</code> operator is frankly magical and this is the first programming language where I've really started to use streams/iterators properly.
             The struct system seems a bit weird to me as I'm very used to classes being their own files, but I'm sure I'll get used to it in time.
-            The compiler is awesome, and Cargo is also really useful, though I'm not sure how well I agree with the choice of statically linking dependencies by default, or how Node.js like the packages are (loads and loads of tiny packages)
+            The compiler is awesome, and Cargo is also really useful, though I'm not sure how well I agree with the choice of statically linking dependencies by default, or how Node.js like the packages are (loads and loads of tiny packages).
+        </p>
+        <p>
+            Update, a bit further down the line: there always feel like several very differently written ways to do something like handling a <code>Result</code> returning function.
+            You can <code>if let Err(e)</code> if you only care about errors, <code>match</code> it if you care about both parts but what to carry on execution, use <code>?</code> if you care about both but don't want to carry on execution, use <code>.unwrap()</code> if you know you're never going to get an error, or <code>.unwrap_or(foo)</code> to provide a simple default.
+            The problem arises that in an iterative development process, I often find myself moving between these slightly different 'end result' scenarios, but having to rewrite a lot of code to do so that's very syntactically different.
+            Like yes you could use <code>match</code> for all cases, but that's not the proper/idiomatic/clean way.
+            <em>/ramble</em>
+        </p>
+        <p>
+            Other misc. thoughts:
+            <ul>
+                <li>
+                    I really miss some of Java's OOP features like extending classes
+                </li>
+                <li>
+                    I wish Rust could let you <code>?</code> out of a method from within a closure
+                </li>
+            </ul>
         </p>
         <p>
             Projects completed in Rust:

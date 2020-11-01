@@ -168,7 +168,6 @@ code {
     background-color: var(--color7);
     border-radius: 4px;
     display: inline;
-    padding-inline: 5px;
 }
 
 /* align is not always supported anymore so I tend to just use 'auto' on left and right margin if you arent using flexbox or grid */

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>💻 println!("Hello {}!", atk);</title>
+    <title>Atk codes 💻</title>
     <link rel="icon" href="imgs/me.jpg">
     <link rel='stylesheet' type='text/css' href='style.css'>
     <meta charset="utf-8">
@@ -28,15 +28,35 @@
             Programming Experience
         </h2>
         <p>
-            I largely speaking prefer backend development - I'm not a fan of GUI or web development, and have little experience with either of these.
+            I largely speaking prefer backend development - I'm not a massive fan of GUI or web development.
             I wrote this HTML by hand and based the CSS off of <a href="https://web.archive.org/web/20200504050115/https://lukesmith.xyz/">Luke Smith's old website</a>, sue me
         </p>
         <p>
             <em>All projects below that are marked with an asterisk (*) were related to my university course and as such I can't publically share the source</em>
         </p>
     </div>
-    
+
     <div class="right">
+        <img src="imgs/siphon.png" alt="Siphon screenshot" style="max-width: 400px; max-height: 300px;">
+        <h3>
+            Siphon
+        </h3>
+        <p>
+            My university dissertation project was Siphon.
+            It's a free open source browser extension (currently for Firefox only) that watches your internet activity and records how much data is sent to known tracking domains.
+            It's meant as an educational tool to the less internet savvy to show them how much telemetry and analytics are being collected on them by big corporations like Facebook - but it does not actually block anything itself.
+            This was mostly to differentiate Siphon so it wasn't a completely done-to-death concept for the university's sake, but is also useful because it means it's guaranteed to not break websites.
+            The extension has a little pop-up that shows statistics about the current tab you're on, as well as leading onto the graphical statistics pages Siphon also provides.
+        </p>
+        <p>
+            As for some of the technologies used to build it, the core of it is written in TypeScript, with <a href="https://tailwindcss.com">Tailwind CSS</a> holding together the front into something semi-presentable.
+            For more information you can check out the GitHub repository once I've changed my details on all of the commits and published it publicly.
+            There will also be releases available there to download and install.
+            I'm unsure at this time if I will continue with Siphon's development, but I'm really happy with what I achieved in the time I had considering I'd never done web development, Java/TypeScript, or browser extensions before starting on this.
+        </p>
+    </div>
+    
+    <div class="left">
         <img src="imgs/java.svg" alt="Java logo">
         <h3>
             Java
@@ -80,7 +100,7 @@
         </ul>
     </div>
     
-    <div class="left">
+    <div class="right">
         <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" alt="Rust logo">
         <h3>
             Rust
@@ -129,10 +149,16 @@
                 <a href="https://github.com/alpha-tango-kilo/noughts-n-crosses-rs">Noughts & crosses</a> (2 player)
             </li>
             <li>
+                A matrix factorisation-based recommender system for datasets of ratings without metadata*
+            </li>
+            <li>
+                WIP: <a href="https://github.com/alpha-tango-kilo/file_chop">file_chop</a>, a program to very quickly just split files into chunks and stick them back together again
+            </li>
+            <li>
                 WIP: A program to automatically generate an RSS feed of my <a target="_self" href="gaming.html">game reviews</a>
             </li>
             <li>
-                WIP: <a href="https://github.com/alpha-tango-kilo/boxrec-heuristic">BoxRec Heuristic Tool</a>, a <b>web scraper</b> that compares boxers' statistics on the <a href="https://boxrec.com">BoxRec</a> website to the Betfair odds and notifies the user if there's a discrepancy in their favour. This project was commissioned for the personal use of a client
+                Proof of concept: <a href="https://github.com/alpha-tango-kilo/boxrec-heuristic">BoxRec Heuristic Tool</a>, a <b>web scraper</b> that compares boxers' statistics on the <a href="https://boxrec.com">BoxRec</a> website to the Betfair odds and notifies the user if there's a discrepancy in their favour. This project was commissioned for the personal use of a client
             </li>
             <li>
                 Idea: <a href="https://github.com/alpha-tango-kilo/ruwms">rwms</a>, a <b>tiling window manager</b>
@@ -140,7 +166,7 @@
         </ul>
     </div>
     
-    <div class="right">
+    <div class="left">
         <img src="https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png" alt="Haskell logo">
         <h3>
             Haskell
@@ -165,7 +191,7 @@
         </ul>
     </div>
     
-    <div class="left">
+    <div class="right">
         <img src="https://raw.githubusercontent.com/odb/official-bash-logo/master/assets/Logos/Icons/SVG/512x512.svg"
             alt="Bash logo">
         <h3>
@@ -189,7 +215,7 @@
         </p>
     </div>
     
-    <div class="right">
+    <div class="left">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python logo">
         <h3>
             Python

@@ -83,6 +83,8 @@ h4 {
 	color: var(--color8);
     font-size: 20px;
     font-weight: normal;
+    margin-top: -5px;
+    margin-bottom: -15px;
 }
 
 a {
@@ -114,7 +116,6 @@ a img:hover {
 }
 
 #cat {
-    /*'float: center' does nothing btw. and cat should be an class, as its used so many times in the html*/
     display: inline;
 }
 
@@ -141,6 +142,7 @@ footer {
 	clear: both;
 	text-align: center;
 	padding-top: 2em;
+    font-style: italic;
 }
 
 dt {
@@ -219,20 +221,19 @@ pre {
 	text-align: left;
 }
 
-.right img {
+.right img, .left img {
     padding-top: 1em;
-    float: right;
-    max-width: 300px;
-    max-height: 225px;
+    max-width: 200px;
+    max-height: 175px;
     padding: 20px;
 }
 
+.right img {
+    float: right;
+}
+
 .left img {
-    padding-top: 1em;
     float: left;
-    max-width: 300px;
-    max-height: 225px;
-    padding: 20px;
 }
 
 #content td {
